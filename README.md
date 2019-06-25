@@ -7,3 +7,6 @@
 
 Here's an example how the data looks (*each class takes three-rows*):
 
+![](img/fashion-mnist-sprite.png)
+
+<img src="img/embedding.gif" width="100%">
