@@ -10,3 +10,11 @@ Here's an example how the data looks (*each class takes three-rows*):
 ![](img/fashion-mnist-sprite.png)
 
 <img src="img/embedding.gif" width="100%">
+
+## Why we made Fashion-MNIST
+
+The original [MNIST dataset](http://yann.lecun.com/exdb/mnist/) contains a lot of handwritten digits. Members of the AI/ML/Data Science community love this dataset and use it as a benchmark to validate their algorithms. In fact, MNIST is often the first dataset researchers try. *"If it doesn't work on MNIST, it **won't work** at all"*, they said. *"Well, if it does work on MNIST, it may still fail on others."* 
+
+### To Serious Machine Learning Researchers
+
+Seriously, we are talking about replacing MNIST. Here are some good reasons:
