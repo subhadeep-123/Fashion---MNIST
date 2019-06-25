@@ -36,5 +36,33 @@ You can use direct links to download the dataset. The data is stored in the **sa
 
 Alternatively, you can clone this GitHub repository; 
 
+Each training and test example is assigned to one of the following labels:
 
+| Label | Description |
+| --- | --- |
+| 0 | T-shirt/top |
+| 1 | Trouser |
+| 2 | Pullover |
+| 3 | Dress |
+| 4 | Coat |
+| 5 | Sandal |
+| 6 | Shirt |
+| 7 | Sneaker |
+| 8 | Bag |
+| 9 | Ankle boot |
    
+### Loading data with different machine learning libraries 
+To date, the following libraries have included `Fashion-MNIST` as a built-in dataset. Therefore, you don't need to download `Fashion-MNIST` by yourself. Just follow their API and you are ready to go.
+
+- [Apache MXNet Gluon](https://mxnet.incubator.apache.org/api/python/gluon/data.html)
+- [deeplearn.js](https://deeplearnjs.org/demos/model-builder/)
+- [Kaggle](https://www.kaggle.com/zalando-research/fashionmnist)
+- [Pytorch](http://pytorch.org/docs/master/torchvision/datasets.html#fashion-mnist)
+- [Keras](https://keras.io/datasets/#fashion-mnist-database-of-fashion-articles)
+- [Edward](http://edwardlib.org/api/observations/fashion_mnist)
+- [Tensorflow](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/fashion_mnist)
+- [Torch](https://github.com/mingloo/fashion-mnist)
+- [JuliaML](https://github.com/JuliaML/MLDatasets.jl)
+- [Chainer](https://docs.chainer.org/en/stable/reference/generated/chainer.datasets.get_fashion_mnist.html)
+
+You are welcome to make pull requests to other open-source machine learning packages, improving their support to `Fashion-MNIST` dataset.
