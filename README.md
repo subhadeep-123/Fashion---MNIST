@@ -65,3 +65,4 @@ To date, the following libraries have included `Fashion-MNIST` as a built-in dat
 - [JuliaML](https://github.com/JuliaML/MLDatasets.jl)
 - [Chainer](https://docs.chainer.org/en/stable/reference/generated/chainer.datasets.get_fashion_mnist.html)
 
+
